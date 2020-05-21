@@ -1,0 +1,19 @@
+{
+  "name": "authentication-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "connect": "/Users/Casey/mongodb/bin/mongod.exe --dbpath=/Users/Casey/mongodb-data",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Casey Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15",
+    "mongoose-encryption": "^2.0.2"
+  }
+}
